@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  padding: 40px 144px;
+}
+.text-container {
+  text-align: center;
+}
+.text-container h1 {
+  color: var(--neutral-d-grey, #4d4d4d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+.text-1 {
+  margin-top: 8px;
+  margin-bottom: 50px;
+  color: var(--neutral-grey, #717171);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.image-container img {
+  width: 40px;
+  height: 40px;
+}
+.text-container-2 h2 {
+  margin: auto;
+  margin-top: 74px;
+  margin-bottom: 8px;
+  width: 542px;
+  text-align: center;
+  color: var(--neutral-d-grey, #4D4D4D);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+.text-container-2 ul {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.text-container-2 ul li {
+  padding: 24px 32px;
+  list-style-type: none;
+  display: flex;
+  width: 299px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--neutral-white, #FFF);
+  box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
+}
+.text-container-2 ul li h3 {
+  color: var(--neutral-d-grey, #4D4D4D);
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; 
+}
+.text-container-2 ul li p {
+  width: 251px;
+  color: var(--neutral-grey, #717171);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+}
+.last-container {
+  display: flex;
+  justify-content: space-between;
+}
+.last-container .left-container img {
+  width: 442px;
+  height: 433px;
+}
+.right-container h4 {
+  margin-top: 90px;
+  margin-bottom: 16px;
+  width: 601px;
+  color: var(--neutral-d-grey, #4D4D4D);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; 
+}
+.right-container p {
+  width: 601px;
+  color: var(--neutral-grey, #717171);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.right-container button {
+  margin-top: 32px;
+  padding: 14px 32px;
+  color: var(--neutral-white, #FFF);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--brand-primary, #4CAF4F);
+  border: none;
+}
